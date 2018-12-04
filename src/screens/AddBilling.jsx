@@ -52,6 +52,7 @@ export class AddBilling extends React.Component {
         })
 
         Appointment.addBilling(dataJson).then(response => {
+            console.log(dataJson)
             if (response.status === 200) {
                 this.setState({
                     loading: false,

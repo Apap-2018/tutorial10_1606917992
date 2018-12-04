@@ -11,7 +11,7 @@ export const DaftarPasienRow = (props) => {
                         <td>{pasien.statusPasien.jenis}</td>
                         <td>
                             <Link to={`/update-pasien/${pasien.id}`} className="btn btn-info">Update</Link>
-                            <Link to={`/add-billing/${pasien.id}`} className="btn btn-info">Bill</Link>
+                            <Link to={`/add-billing/${pasien.id}`} className="btn btn-info">Billing</Link>
                         </td>
                     </tr>
                 )
